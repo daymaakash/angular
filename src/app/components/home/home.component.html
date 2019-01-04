@@ -1,0 +1,10 @@
+
+  <a [routerLink]="['/home', {outlets: {'teacherList':['teacher']}}]"><button  mat-flat-button>ADD TEACHERS</button></a>
+  <br>
+  <a [routerLink]="['/home', {outlets: {'teacherList':['class']}}]"><button  mat-flat-button>ADD CLASSES</button></a>
+  <br>
+  <a  [routerLink]="['/timetable']"><button  mat-flat-button>CREATE TIMETABLE</button></a>
+
+
+<router-outlet name="teacherList"></router-outlet>
+

@@ -1,0 +1,17 @@
+.container{
+    margin-left:5px;
+}
+
+button{
+    background-color: lightgray;
+}
+h2{
+    text-align: center;
+    font-family: 'helvetica';
+    color: blue;
+}
+
+input{
+    height: 29px;
+    width: 200px;
+}

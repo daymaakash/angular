@@ -1,0 +1,21 @@
+<div class="container">
+<div class="login-card-container">
+    <mat-card class="login">
+            <span style="text-shadow:1px 1px 0 #444" >Login </span>
+            <form class="example-form">
+                   <mat-form-field class="example-full-width">
+                      <input matInput placeholder="Email" type="email" required>
+                    </mat-form-field>
+          
+                    <mat-form-field class="example-full-width">
+                        <input matInput placeholder="Password" type="password" required>
+                      </mat-form-field>
+           
+                     <a routerLinkActivate="active" [routerLink]="['/home']"><button mat-raised-button>Login</button></a>
+                     
+                  </form>
+      </mat-card>
+      <a routerLinkActivate="active" [routerLink]="['/signup']"><button mat-raised-button style="background-color:white">Create An Account</button></a>
+    
+</div>
+</div>

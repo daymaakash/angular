@@ -1,0 +1,9 @@
+button{
+    width:100%;
+    padding:2px 10px;
+    margin:10px 0;
+    cursor: pointer;
+    background-color: rgb(55, 194, 236);}
+    p {
+    color: rgb(61, 70, 83);
+}

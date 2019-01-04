@@ -1,0 +1,35 @@
+<div class="container">
+ 
+    <mat-card class="signup-card">
+      <span style="text-shadow:1px 1px 0 #444;font-size:140%;">Create account</span>
+
+
+      <form class="example-form" (ngSubmit)="onSignup(f)" #f="ngForm">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="User name" type="text"  required>
+            </mat-form-field>
+        
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Email" type="email" ngModel  required>
+          </mat-form-field>
+
+          <mat-form-field class="example-full-width">
+              <input matInput placeholder="Password" type="password" ngModel required>
+            </mat-form-field>
+
+           <a routerLinkActivate="active" [routerLink]="['/home']"><button mat-raised-button>Sign up</button></a> 
+            
+           <h5>Already have an account? <a routerLinkActivate="active" [routerLink]="['/login']"><span style="color:#2281ad">Login</span></a></h5> 
+        </form>
+      
+
+    </mat-card>
+  </div>
+  
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+<div class="container">
+ 
+  <mat-card class="Teacher-card">
+    <span style="text-shadow:1px 1px 0 #444;font-size:140%;">Add Teacher</span>
+
+<p>First Name</p>
+    <form class="example-form">
+      <mat-form-field class="example-full-width">
+          <input matInput placeholder="First Name" type="text" required id="firstname" #firstname>
+         
+          </mat-form-field>
+      <p>Last Name</p>
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Last Name" type="text" required id="secondname" #secondname>
+        </mat-form-field>
+
+         <a routerLinkActivate="active" [routerLink]="['/teacher']"><button (click) = "foo(firstname.value, secondname.value)" mat-flat-button>Submit</button></a> 
+          
+        
+      </form>
+    
+
+  </mat-card>
+</div>
